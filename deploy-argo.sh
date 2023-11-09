@@ -14,7 +14,6 @@ message() {
 
 [[ ! -x "$(command -v kubectl)" ]] && echo "kubectl not found, you need to install kubectl" && exit 1
 [[ ! -x "$(command -v helm)" ]] && echo "helm not found, you need to install helm" && exit 1
-[[ ! -x "$(command -v kustomize)" ]] && echo "kustomize not found, you need to install kustomize" && exit 1
 [[ ! -x "$(command -v argocd)" ]] && echo "argocd not found, you need to install argocd-cli" && exit 1
 
 installArgoCD() {
