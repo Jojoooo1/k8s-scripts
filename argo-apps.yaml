@@ -32,6 +32,9 @@ spec:
 
         - name: DNS_ENV
           value: '-dev'
+
+        - name: DNS_DOMAIN
+          value: '<your-domain.com>'
           
         - name: PROJECT
           value: "<your-gcp-dev-service-id>"
